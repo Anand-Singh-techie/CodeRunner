@@ -1,7 +1,6 @@
 # CodeRush - Compile and Execute code in 40+ languages
 
 ⚡️ A code editor that compiles and runs your code on the web.
-Blog: <a href="https://www.freecodecamp.org/news/how-to-build-react-based-code-editor/" target="__blank">FreeCodeCamp - Build A Code IDE with React</a>
 
 <img src="https://github.com/Anand-Singh-techie/CodeRunner/blob/master/demo.png" />
 
