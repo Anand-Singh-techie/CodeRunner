@@ -7,7 +7,7 @@ const OutputWindow = ({ outputDetails }) => {
     if (statusId === 6) {
       // compilation error
       return (
-        <pre className="px-2 py-1 font-normal text-xs text-red-500">
+        <pre className="py-1 font-normal text-xs text-red-500">
           {atob(outputDetails?.compile_output)}
         </pre>
       );
@@ -38,8 +38,8 @@ const OutputWindow = ({ outputDetails }) => {
     <h1 className="font-bold text-xl bg-clip-text text-transparent bg-gradient-to-r from-slate-900 to-slate-700 mb-2">
         Question
       </h1>
-      <div className="w-full h-56 bg-[#1e293b] rounded-md text-white font-normal text-sm overflow-y-auto">
-        <h1>Given an array of integers nums which is sorted in ascending order, and an integer target, write a function to search target in nums. If target exists, then return its index. Otherwise, return -1.
+      <div className=" p-3 w-full h-56 bg-[#1e293b] rounded-md text-white font-normal text-sm overflow-y-auto">
+        <h1 >Given an array of integers nums which is sorted in ascending order, and an integer target, write a function to search target in nums. If target exists, then return its index. Otherwise, return -1.
         You must write an algorithm with O(log n) runtime complexity.</h1>
         <br/>
         <h3><b>Input:</b> nums = [-1,0,3,5,9,12], <b>target</b> = 9
@@ -56,7 +56,7 @@ const OutputWindow = ({ outputDetails }) => {
       <h1 className="font-bold text-xl bg-clip-text text-transparent bg-gradient-to-r from-slate-900 to-slate-700 mb-2">
         Output
       </h1>
-      <div className="w-full h-56 bg-[#1e293b] rounded-md text-white font-normal text-sm overflow-y-auto">
+      <div className=" w-full h-56 bg-[#1e293b] rounded-md text-white font-normal text-md overflow-y-auto">
         {outputDetails ? <>{getOutput()}</> : null}
       </div>
     </>

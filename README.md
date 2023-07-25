@@ -2,6 +2,8 @@
 
 ⚡️ A code editor that compiles and runs your code on the web.
 
+<img src="./codeEditor.png">
+<br>
 <img src="https://github.com/Anand-Singh-techie/CodeRunner/blob/master/demo.png" />
 
 ## Features: 
